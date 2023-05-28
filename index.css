@@ -1,0 +1,131 @@
+body {
+    margin: auto;
+    margin-top: 50px;
+    width: 575px;
+    height: 385px;
+    background-image: url(basketball.jpg);
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background: #1B244A;
+    width: inherit;
+    height: inherit;
+    border: 2px solid whitesmoke;
+}
+
+#homeText {
+    margin-top: 68px;
+    margin-left: -2px;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#guestText {
+    margin-top: 68px;
+    margin-left: -8px;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+@font-face {
+  font-family: Cursed Timer;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+#homeScore {
+    font-family: Cursed Timer;
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    width: 162px;
+    height: 110px;
+    margin-bottom: 0px;
+    padding-top: 21px;
+    margin-top: -21px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#guestScore {
+    font-family: Cursed Timer;
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    width: 162px;
+    height: 110px;
+    padding-top: 21px;
+    margin-top: -21px;
+    margin-bottom: 0px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#heading {
+    margin: 0px;
+    font-family: Cursed Timer;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    background: black;
+    padding-top: 10px;
+    margin-right: -4px;
+}
+
+button {
+    box-sizing: border-box;
+    background: #1B244A;
+    font-family: Cursed Timer;
+    border: 2px solid #9AABD8;
+    width: 45px;
+    height: 45px;
+    margin-top: 26px;
+    color: #9AABD8;
+    border-radius: 5px;
+}
+
+.hBtn1 {
+    margin-right: 9px; 
+}
+
+.hBtn2 {
+    margin-right: 11px;
+}
+
+.gBtn1 {
+    margin-right: 9px;   
+}
+
+.gBtn2 {
+    margin-right: 11px;   
+}
+
+.reset {
+    border: 2px solid yellow;
+    width: auto;   
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;  
+}
+
